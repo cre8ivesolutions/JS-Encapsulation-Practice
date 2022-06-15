@@ -14,6 +14,7 @@ function renderCart() {
 
     items.forEach((sandwich) => {
         const sandwichDiv = createSandwichCard(sandwich);
+        
         sandwichUl.append(sandwichDiv)
     })
 }
